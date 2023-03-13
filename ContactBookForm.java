@@ -15,7 +15,7 @@ public class ContactBookForm {
         }
     }
 
-    public static Contact head = null;
+    private static Contact head = null;
 
     //Menu//
     public static void displayMenu() {
