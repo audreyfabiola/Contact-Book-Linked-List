@@ -7,7 +7,7 @@ public class ContactBookForm {
         private String email;
         private Contact next;
 
-        private Contact(String name, String phoneNum, String email) {
+        public Contact(String name, String phoneNum, String email) {
             this.name = name;
             this.phoneNum = phoneNum;
             this.email = email;
